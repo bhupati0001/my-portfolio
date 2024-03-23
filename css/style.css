@@ -292,3 +292,7 @@ a.btn:nth-child(2)::before{
     top: 10%
 
 }
+
+.blob-image:nth-child(2){
+    filter: blur(50px);
+}
