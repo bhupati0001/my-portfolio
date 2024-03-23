@@ -39,6 +39,9 @@ header{
     justify-content: space-between;
     width: 100%;
 }
+span{
+    color: var(--hover-color);
+}
 
 .logo{
  font-size:26px ;
@@ -135,6 +138,25 @@ section{
 .home-content p{
     color: #bdbdbd;
     line-height: 1.6;
+}
+
+
+#reach{
+   color: var(--hover-color)
+}
+
+#me{
+    color: var(--text-color)
+}
+
+#colon{
+    animation: blink 5s infinite;
+    text-shadow: 0 0 .5rem var(--hover-color);
+}
+@keyframes blink {
+    0% { opacity: 1; } 
+    50% { opacity: 0; }
+    100% { opacity: 1; } 
 }
 
 .info-box{
@@ -314,4 +336,21 @@ a.btn:nth-child(2)::before{
 
 .blob-image:nth-child(2){
     filter: blur(50px);
+}
+
+/* ------------about style -----------*/
+
+
+
+.about{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2em;
+    background:var(--second-bg-color);
+}
+
+.about .img-about{
+    text-align: center;
+    position: relative;
 }
