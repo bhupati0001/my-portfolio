@@ -697,13 +697,13 @@ div[class*="-clients"] p {
 }
 
 .skill-bar .bar .html {
-    width: 90%;
-    animation: html 2s;
+    width: 72%;
+    animation: html 3.5s;
 }
 
 .skill-bar .bar .css {
     width: 50%;
-    animation: css 3s;
+    animation: css 2.5s;
 }
 
 .skill-bar .bar .figma {
@@ -713,12 +713,12 @@ div[class*="-clients"] p {
 
 .skill-bar .bar .js {
     width: 70%;
-    animation: js 5s;
+    animation: js 3.5s;
 }
 
 .skill-bar .bar .react {
     width: 65%;
-    animation: react 6s;
+    animation: react 3.25s;
 }
 
 /* -------skill right------ */
@@ -821,7 +821,7 @@ div[class*="-clients"] p {
     }
 
     100% {
-        width: 90%;
+        width: 72%;
     }
 }
 
