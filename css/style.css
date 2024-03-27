@@ -367,17 +367,18 @@ section {
 }
 
 .img-box img {
-    width: 100%;
+    width: 80%;
     max-width: 350px;
     height: auto;
 }
 
 .blob-image {
     position: absolute;
-    width: 70%;
+    width: 90%;
     height: auto;
     z-index: -1;
-    top: 10%
+    top: 10%;
+    left:5%;
 }
 
 .blob-image:nth-child(2) {
