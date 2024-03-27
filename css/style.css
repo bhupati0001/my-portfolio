@@ -1149,7 +1149,56 @@ footer a i {
         font-size: 1rem;
     }
     .navlist.open{
-        top: 100%;
+        top: 10%;
+    }
+
+    .home{
+        grid-template-columns: 1fr;
+    }
+    .home-image{
+        margin-bottom: 5rem;
+    }
+    .blob-image{
+        width: 80%;
+        left: 10%;
+        top: 13%;
+    }
+
+    .about{
+        flex-direction: column-reverse;
+    }
+    .skills-main{
+        grid-template-columns: 1fr;
+    }
+
+    .filter-btn{
+        margin: 2.5rem 0;
+    }
+
+    footer p{
+        font-size: .8rem;
+    }
+
+}
+
+@media(max-width: 420px) {
+    html{
+        font-size: 80%;
+    }
+    footer p{
+        font-size: .6rem;
+    }
+
+    .filter-btn btn{
+        font-size: .8rem;
+    }
+
+    .img-about img{
+        width: 300px;
+    }
+
+    .about .img-about div[class*=info-about]{
+        display: none;
     }
 
 }
